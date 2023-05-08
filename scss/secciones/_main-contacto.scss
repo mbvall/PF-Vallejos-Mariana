@@ -1,0 +1,28 @@
+.main-contacto {
+    background-color: white;
+    color: $negro;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    section{
+        padding-left: 10px;
+        p{text-align: center;
+            font-family: $font2;
+            font-style: italic;
+            font-size: 20px;
+
+               
+        }
+
+        #exampleFormControlTextarea1 {
+            margin-bottom: 20px;
+        
+        }
+    }
+
+
+}

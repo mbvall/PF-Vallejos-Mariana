@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap");
+@media (max-width: 500px) {
+  .row {
+    padding: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: center !important;
+  }
+  .col-2 {
+    padding: 0px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+  .col-2 h3 {
+    padding-left: 0px !important;
+  }
+  .col-10 h3 {
+    padding-top: 70px !important;
+    margin-bottom: 0px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+header .bg-body-tertiary {
+  background-color: #131313 !important;
+}
+header nav div .navbar-toggler {
+  background-color: #808080;
+}
+header nav div div ul .nav-link {
+  color: #f5f5db !important;
+}
+header nav div div ul .nav-link:hover {
+  color: #808080 !important;
+}
+header nav div div ul .active {
+  color: #a31830 !important;
+}
+header nav div div .carrito {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+}
+
+.main-index {
+  background-color: #131313;
+  color: #f5f5db;
+  padding-bottom: 50px;
+}
+.main-index .destacados .row .col {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-index .destacados .row .col img {
+  padding: 10px;
+  align-items: center;
+}
+
+.main-productos {
+  background-color: #131313;
+  color: #f5f5db !important;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.main-productos .row .col-2 h3 {
+  padding-left: 15px;
+}
+.main-productos .row .col-2 .nav-link {
+  color: #f5f5db !important;
+}
+.main-productos .row .col-2 .nav-link:hover {
+  color: #808080 !important;
+}
+.main-productos .row .col-2 .active {
+  color: #a31830 !important;
+}
+.main-productos .row .col-10 .col {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-productos .row .col-10 .col img {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+}
+.main-productos .row .col-10 h4 {
+  padding-top: 50px;
+}
+
+.main-conocenos {
+  background-color: white;
+  color: #131313;
+  text-align: center;
+  padding-top: 50px;
+}
+.main-conocenos .row .col .card .card-body h5 {
+  font-weight: bold !important;
+  font-size: 20px;
+}
+.main-conocenos .row .col .card .card-body p {
+  font-family: "Source Serif Pro", serif !important;
+  font-weight: 500;
+  font-style: italic !important;
+  font-size: 20px;
+}
+.main-conocenos .row .col .card img {
+  padding: 10px;
+  border-radius: 1rem;
+}
+.main-conocenos .row .col .card .card-footer .card-link {
+  color: #131313;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-conocenos .row .col .card .card-footer .card-link:hover {
+  color: #808080;
+}
+
+.main-contacto {
+  background-color: white;
+  color: #131313;
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.main-contacto section {
+  padding-left: 10px;
+}
+.main-contacto section p {
+  text-align: center;
+  font-family: "Source Serif Pro", serif !important;
+  font-style: italic;
+  font-size: 20px;
+}
+.main-contacto section #exampleFormControlTextarea1 {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #131313;
+  color: #f5f5db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .row .col {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  align-items: center;
+}
+footer .row .col .tarjetas-img {
+  width: 300px;
+}
+footer .row .col .link-footer {
+  color: #f5f5db;
+  text-decoration: none;
+}
+footer .row .col .redes-link {
+  flex-direction: column;
+  padding-top: 20px;
+}
+footer .row .col .redes-img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+footer .btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #f5f5db;
+  border-radius: 60px;
+  box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.3;
+  z-index: 100;
+}
+footer .btn-wsp:hover {
+  text-decoration: none;
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+.btn.btn-primary {
+  background-color: #a31830;
+  color: #f5f5db;
+  border-color: #131313;
+}
+.btn.btn-primary:hover {
+  background-color: #808080;
+  color: #131313;
+  border: #131313;
+}
+
+.ancho-maximo {
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.btn.btn-secondary {
+  background-color: #a31830;
+  border-color: #131313;
+}
+.btn.btn-secondary:hover {
+  background-color: #808080;
+  border-color: #131313;
+  color: #131313;
+  transition: 0.5s;
+}
+
+.card-link {
+  font-family: "Source Serif Pro", serif !important;
+  font-style: italic;
+  color: #131313;
+  text-decoration: none !important;
+}
+
+.nav-link {
+  color: beige !important;
+  text-decoration: none !important;
+}
+
+/*-------Main Vinos y cervezas--------*//*# sourceMappingURL=style.css.map */

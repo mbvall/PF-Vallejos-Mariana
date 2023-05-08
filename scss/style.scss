@@ -1,0 +1,89 @@
+@import './recursos/variables';
+@import './recursos/reset';
+@import './secciones/header';
+@import './secciones/main-index';
+@import './secciones/main-productos';
+@import './secciones/main-conocenos';
+@import './secciones/main-contacto';
+@import './secciones/footer';
+
+
+.btn.btn-primary {
+    background-color: $bordo;
+    color: $beige;
+    border-color: $negro;
+
+    &:hover {
+        background-color: $gris;
+        color: $negro;
+        border: $negro;
+    }
+}
+
+.ancho-maximo {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn.btn-secondary {
+    background-color: $bordo;
+    border-color: $negro;
+
+    &:hover {
+        background-color: $gris;
+        border-color: $negro;
+        color: $negro;
+        transition: 0.5s;
+
+    }
+}
+
+.card-link {
+    font-family: $font2;
+    font-style: italic;
+    color: $negro;
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: beige !important;
+    text-decoration: none !important;
+}
+
+
+@media (max-width: 500px) {
+    .row {
+        padding: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-content: center !important;
+        text-align: center !important;
+
+    }
+
+    .col-2 {
+        padding: 0px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+
+
+    .col-2 h3 {
+        padding-left: 0px !important;
+    }
+
+    .col-10 h3 {
+        padding-top: 70px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+

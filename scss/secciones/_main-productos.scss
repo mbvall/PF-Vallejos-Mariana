@@ -1,0 +1,50 @@
+.main-productos {
+    background-color: $negro;
+    color: $beige !important;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    .row{
+        .col-2{
+            h3{
+                padding-left: 15px;
+            }
+            
+            .nav-link{
+                color: $beige!important;
+                &:hover{
+                    color: $gris !important;
+                }
+                
+            }
+            .active{
+                color: $bordo !important;
+            }
+            
+            
+            
+        }
+
+        .col-10 {
+            .col{
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                img{
+                    padding:10px;
+                    height: 150px;
+                    width: 150px;
+                }
+
+            }
+            h4 {
+                padding-top: 50px;
+            }
+        }
+    }
+
+   
+}
+
+
