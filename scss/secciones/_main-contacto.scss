@@ -8,21 +8,50 @@
     justify-content: center;
     align-items: center;
     align-content: stretch;
-    section{
+
+    section {
         padding-left: 10px;
-        p{text-align: center;
+        display: flex;
+        flex-direction: row;
+
+        img {
+            height: 500px;
+            width: 500px;
+            padding: 10px;
+        }
+
+        p {
+            text-align: center;
             font-family: $font2;
             font-style: italic;
             font-size: 20px;
 
-               
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
         }
 
         #exampleFormControlTextarea1 {
             margin-bottom: 20px;
-        
+
         }
     }
 
 
+}
+
+@media (max-width: 992px) {
+    section{
+        padding: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-content: center !important;
+        text-align: center !important;
+
+    }
 }
